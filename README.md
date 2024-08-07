@@ -1,2 +1,2 @@
 # best-rates
- currency exchange
+ Application for calculating cucrrency rates

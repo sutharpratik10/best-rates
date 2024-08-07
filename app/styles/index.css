@@ -1,0 +1,34 @@
+.button{
+    border-color: hsl(0deg 0% 0%) !important;
+}
+.dark .button{
+    border: 1px solid #ffffff !important;
+}
+
+.Navbar{
+    background-color: rgb(247, 247, 247);
+    box-shadow:  0 2px 15px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+    width: -webkit-fill-available;
+    border: 1px solid #000000;
+}
+.floating-navbar {
+    position: fixed;
+    z-index: 1; /* Ensure it stays on top of other content */
+}
+.Navbar .NavigationMenuList{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+.dark .Navbar{
+    background-color: rgb(61 61 61 / 36%);
+    box-shadow: 0 2px 15px 1px rgb(65 64 64);
+    border: 1px solid #ffffff;
+}
+.dark .Navbar .brand_logo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
