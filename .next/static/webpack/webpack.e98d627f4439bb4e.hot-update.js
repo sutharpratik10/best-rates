@@ -10,9 +10,9 @@
 self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ /* webpack/runtime/getFullHash */
-/******/ !function() {
+/******/ !(function() {
 /******/ 	__webpack_require__.h = function() { return "7134545831a9c0ae"; }
-/******/ }();
+/******/ }());
 /******/ 
 /******/ }
 );
