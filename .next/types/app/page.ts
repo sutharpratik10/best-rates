@@ -1,4 +1,4 @@
-// File: D:\Pratik\Dev\nodejs\best-rates\app\page.tsx
+// File: /workspaces/best-rates/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
